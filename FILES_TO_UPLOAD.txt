@@ -1,0 +1,35 @@
+✅ FILES TO UPLOAD TO GITHUB:
+
+backend/
+  ├── app.py                    ✓ Flask backend code
+  ├── schemes.json              ✓ Scholarship data
+  ├── requirements.txt          ✓ Python dependencies
+  ├── .env.example              ✓ Environment template
+  └── README.md                 ✓ Backend documentation
+
+frontend/
+  ├── index.html                ✓ Main page
+  ├── scheme.html               ✓ Details page
+  ├── chat.html                 ✓ Chat page
+  ├── script.js                 ✓ Main page JS
+  └── chat.js                   ✓ Chat JS
+
+api/
+  ├── index.py                  ✓ Vercel serverless function
+  └── schemes.json              ✓ Copy of schemes data
+
+Root files:
+  ├── vercel.json               ✓ Vercel configuration
+  ├── .gitignore                ✓ Git ignore rules
+  ├── DEPLOYMENT.md             ✓ Deployment guide
+  └── SETUP_GUIDE.md            ✓ Setup instructions
+
+❌ DO NOT UPLOAD:
+  ✗ backend/venv/               (Virtual environment - HUGE!)
+  ✗ .env                        (Contains your API key!)
+  ✗ __pycache__/                (Python cache)
+  ✗ *.pyc files                 (Compiled Python)
+  ✗ .DS_Store                   (Mac system files)
+
+📦 Total essential files: ~15 files (very small!)
+🚫 Excluded files: ~10,000+ files in venv (unnecessary!)

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scholarship Details</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px 0;
+        }
+        
+        .back-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: white;
+            border: none;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #667eea;
+            font-size: 1.2rem;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            transform: translateX(-5px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
+        .details-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .scheme-header {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            animation: fadeInDown 0.6s ease-out;
+        }
+        
+        .scheme-title {
+            color: #333;
+            font-weight: 700;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .scheme-title i {
+            color: #667eea;
+        }
+        
+        .scheme-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        
+        .details-card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            animation: fadeInUp 0.6s ease-out;
+        }
+        
+        .section-title {
+            color: #667eea;
+            font-weight: 600;
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+        
+        .info-item {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .info-item-label {
+            color: #666;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .info-item-label i {
+            color: #667eea;
+        }
+        
+        .info-item-value {
+            color: #333;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        
+        .benefits-box {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            border: 2px solid rgba(102, 126, 234, 0.2);
+        }
+        
+        .benefits-box p {
+            margin: 0;
+            color: #333;
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+        
+        .documents-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+        }
+        
+        .documents-list li {
+            background: #f8f9fa;
+            padding: 12px 15px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #333;
+        }
+        
+        .documents-list li i {
+            color: #667eea;
+        }
+        
+        .apply-section {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+        }
+        
+        .apply-section p {
+            margin: 0;
+            color: #333;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .btn-chat {
+            flex: 1;
+            min-width: 200px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 12px;
+            padding: 15px 25px;
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-chat:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        
+        .btn-chat i {
+            margin-right: 8px;
+        }
+        
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .scheme-title {
+                font-size: 1.4rem;
+            }
+            
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .action-buttons {
+                flex-direction: column;
+            }
+            
+            .btn-chat {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<button class="back-btn" onclick="history.back()">
+    <i class="fas fa-arrow-left"></i>
+</button>
+
+<div class="details-container">
+    <div class="scheme-header">
+        <div class="scheme-title">
+            <i class="fas fa-award"></i>
+            <span id="schemeName"></span>
+        </div>
+        <span class="scheme-badge" id="stateBadge"></span>
+    </div>
+
+    <div class="details-card">
+        <div class="section-title">
+            <i class="fas fa-info-circle"></i>
+            Key Information
+        </div>
+        
+        <div class="info-grid">
+            <div class="info-item">
+                <div class="info-item-label">
+                    <i class="fas fa-users"></i>
+                    Eligible Category
+                </div>
+                <div class="info-item-value" id="category"></div>
+            </div>
+            
+            <div class="info-item">
+                <div class="info-item-label">
+                    <i class="fas fa-rupee-sign"></i>
+                    Income Limit
+                </div>
+                <div class="info-item-value" id="income"></div>
+            </div>
+            
+            <div class="info-item">
+                <div class="info-item-label">
+                    <i class="fas fa-calendar-check"></i>
+                    Application Deadline
+                </div>
+                <div class="info-item-value" id="deadline"></div>
+            </div>
+            
+            <div class="info-item">
+                <div class="info-item-label">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Applicable State
+                </div>
+                <div class="info-item-value" id="state"></div>
+            </div>
+        </div>
+        
+        <div class="section-title">
+            <i class="fas fa-gift"></i>
+            Benefits
+        </div>
+        <div class="benefits-box">
+            <p id="benefits"></p>
+        </div>
+        
+        <div class="section-title">
+            <i class="fas fa-file-alt"></i>
+            Required Documents
+        </div>
+        <ul class="documents-list" id="documents"></ul>
+        
+        <div class="section-title mt-4">
+            <i class="fas fa-paper-plane"></i>
+            How to Apply
+        </div>
+        <div class="apply-section">
+            <p id="apply"></p>
+        </div>
+        
+        <div class="action-buttons">
+            <button class="btn-chat" onclick="openChat()">
+                <i class="fas fa-comments"></i>
+                Ask AI Assistant
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+const scheme = JSON.parse(localStorage.getItem("selectedScheme"));
+
+document.getElementById("schemeName").innerText = scheme.name;
+document.getElementById("stateBadge").innerText = scheme.state;
+document.getElementById("benefits").innerText = scheme.benefits;
+document.getElementById("category").innerText = scheme.category.join(", ");
+document.getElementById("income").innerText = "₹" + scheme.income_limit.toLocaleString();
+document.getElementById("state").innerText = scheme.state;
+document.getElementById("deadline").innerText = scheme.deadline;
+document.getElementById("apply").innerText = scheme.how_to_apply;
+
+const docList = document.getElementById("documents");
+scheme.documents.forEach(doc => {
+    const li = document.createElement("li");
+    li.innerHTML = `<i class="fas fa-check-circle"></i> ${doc}`;
+    docList.appendChild(li);
+});
+
+function openChat() {
+    localStorage.setItem("selectedScheme", JSON.stringify(scheme));
+    window.location.href = "chat.html";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,720 @@
+[
+  {
+    "id": 1,
+    "name": "Post Matric Scholarship (SC/ST/OBC)",
+    "student_type": "college",
+    "year": [2, 3, 4],
+    "category": ["SC", "ST", "OBC"],
+    "income_limit": 200000,
+    "state": "All",
+    "benefits": "Tuition fees reimbursement and maintenance allowance",
+    "documents": [
+      "Income Certificate",
+      "Caste Certificate",
+      "Bonafide Certificate",
+      "Bank Passbook"
+    ],
+    "how_to_apply": "Apply online through National Scholarship Portal (NSP)",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 2,
+    "name": "Central Sector Scheme of Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3],
+    "category": ["General", "OBC", "SC", "ST"],
+    "income_limit": 800000,
+    "state": "All",
+    "benefits": "₹10,000–₹20,000 per year based on course",
+    "documents": [
+      "Income Certificate",
+      "Mark Sheets",
+      "Aadhaar Card",
+      "Bank Account Details"
+    ],
+    "how_to_apply": "Apply through National Scholarship Portal",
+    "deadline": "30-09-2026"
+  },
+  {
+    "id": 3,
+    "name": "Tamil Nadu State Merit Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC", "ST"],
+    "income_limit": 250000,
+    "state": "Tamil Nadu",
+    "benefits": "Merit-based scholarship with tuition fee support",
+    "documents": [
+      "Community Certificate",
+      "Income Certificate",
+      "Mark Sheets"
+    ],
+    "how_to_apply": "Apply via Tamil Nadu e-Scholarship portal",
+    "deadline": "15-10-2026"
+  },
+  {
+    "id": 4,
+    "name": "Minority Merit-cum-Means Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["Minority"],
+    "income_limit": 250000,
+    "state": "All",
+    "benefits": "Course fees and maintenance allowance",
+    "documents": [
+      "Income Certificate",
+      "Minority Certificate",
+      "Bonafide Certificate"
+    ],
+    "how_to_apply": "Apply through NSP portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 5,
+    "name": "AICTE Pragati Scholarship for Girls",
+    "student_type": "college",
+    "year": [1],
+    "category": ["General", "OBC", "SC", "ST"],
+    "income_limit": 800000,
+    "state": "All",
+    "benefits": "₹50,000 per year for technical courses",
+    "documents": [
+      "Income Certificate",
+      "Gender Certificate",
+      "Admission Proof"
+    ],
+    "how_to_apply": "Apply through AICTE portal",
+    "deadline": "20-09-2026"
+  },
+  {
+    "id": 6,
+    "name": "AICTE Saksham Scholarship for Disabled Students",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["General", "OBC", "SC", "ST"],
+    "income_limit": 800000,
+    "state": "All",
+    "benefits": "₹50,000 per year for technical education",
+    "documents": [
+      "Income Certificate",
+      "Disability Certificate (40% or above)",
+      "Admission Proof",
+      "Aadhaar Card"
+    ],
+    "how_to_apply": "Apply through AICTE official website",
+    "deadline": "30-10-2026"
+  },
+  {
+    "id": 7,
+    "name": "Prime Minister's Special Scholarship Scheme (PMSSS)",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["General", "OBC", "SC", "ST"],
+    "income_limit": 800000,
+    "state": "Jammu & Kashmir",
+    "benefits": "₹30,000 per year plus course fees up to ₹1,25,000",
+    "documents": [
+      "Domicile Certificate",
+      "Income Certificate",
+      "Class 12th Marksheet",
+      "Aadhaar Card"
+    ],
+    "how_to_apply": "Apply through AICTE PMSSS portal",
+    "deadline": "30-07-2026"
+  },
+  {
+    "id": 8,
+    "name": "Pre-Matric Scholarship for SC Students",
+    "student_type": "school",
+    "year": [9, 10, 11, 12],
+    "category": ["SC"],
+    "income_limit": 250000,
+    "state": "All",
+    "benefits": "Day scholar: ₹225-300/month, Hosteller: ₹380-750/month",
+    "documents": [
+      "Income Certificate",
+      "SC Certificate",
+      "School Bonafide Certificate",
+      "Bank Account Details"
+    ],
+    "how_to_apply": "Apply through NSP portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 9,
+    "name": "Pre-Matric Scholarship for ST Students",
+    "student_type": "school",
+    "year": [9, 10, 11, 12],
+    "category": ["ST"],
+    "income_limit": 250000,
+    "state": "All",
+    "benefits": "Day scholar: ₹225-300/month, Hosteller: ₹380-750/month",
+    "documents": [
+      "Income Certificate",
+      "ST Certificate",
+      "School Bonafide Certificate",
+      "Bank Account Details"
+    ],
+    "how_to_apply": "Apply through NSP portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 10,
+    "name": "Pre-Matric Scholarship for OBC Students",
+    "student_type": "school",
+    "year": [9, 10, 11, 12],
+    "category": ["OBC"],
+    "income_limit": 100000,
+    "state": "All",
+    "benefits": "Admission fee, tuition fee, and other compulsory charges",
+    "documents": [
+      "Income Certificate",
+      "OBC Certificate",
+      "School Bonafide Certificate",
+      "Bank Account Details"
+    ],
+    "how_to_apply": "Apply through NSP portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 11,
+    "name": "National Means-cum-Merit Scholarship (NMMS)",
+    "student_type": "school",
+    "year": [9, 10, 11, 12],
+    "category": ["General", "OBC", "SC", "ST"],
+    "income_limit": 150000,
+    "state": "All",
+    "benefits": "₹12,000 per year (₹1,000 per month)",
+    "documents": [
+      "Income Certificate",
+      "Class 8th Marksheet (60% minimum)",
+      "School Certificate",
+      "Bank Account Details"
+    ],
+    "how_to_apply": "Through State Education Department",
+    "deadline": "30-09-2026"
+  },
+  {
+    "id": 12,
+    "name": "National Scholarship for Persons with Disabilities",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["General", "OBC", "SC", "ST"],
+    "income_limit": 250000,
+    "state": "All",
+    "benefits": "₹1,000-₹2,000 per month based on course level",
+    "documents": [
+      "Disability Certificate (40% or more)",
+      "Income Certificate",
+      "Admission Proof",
+      "Aadhaar Card"
+    ],
+    "how_to_apply": "Apply through NSP portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 13,
+    "name": "Merit-cum-Means Scholarship for Professional and Technical Courses (SC)",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC"],
+    "income_limit": 250000,
+    "state": "All",
+    "benefits": "Full tuition fee and maintenance allowance ₹530-1,200/month",
+    "documents": [
+      "SC Certificate",
+      "Income Certificate",
+      "Previous Year Marksheet",
+      "Bonafide Certificate"
+    ],
+    "how_to_apply": "Apply through NSP portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 14,
+    "name": "Top Class Education for SC Students",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC"],
+    "income_limit": 600000,
+    "state": "All",
+    "benefits": "Full tuition fee, living expenses, books, and other charges",
+    "documents": [
+      "SC Certificate",
+      "Income Certificate",
+      "Admission Proof in notified institutions",
+      "Class 12th Marksheet"
+    ],
+    "how_to_apply": "Apply through NSP portal",
+    "deadline": "30-09-2026"
+  },
+  {
+    "id": 15,
+    "name": "Dr. Ambedkar Post-Matric Scholarship for EBC",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["OBC"],
+    "income_limit": 100000,
+    "state": "All",
+    "benefits": "Maintenance allowance and reimbursement of compulsory fees",
+    "documents": [
+      "EBC/OBC Certificate",
+      "Income Certificate",
+      "Bonafide Certificate",
+      "Previous Year Marksheet"
+    ],
+    "how_to_apply": "Apply through NSP portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 16,
+    "name": "Maharashtra State Government Scholarship (Open Category)",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["General"],
+    "income_limit": 800000,
+    "state": "Maharashtra",
+    "benefits": "Tuition fee and examination fee reimbursement",
+    "documents": [
+      "Domicile Certificate",
+      "Income Certificate",
+      "Admission Receipt",
+      "Previous Marksheet"
+    ],
+    "how_to_apply": "Apply through Mahadbt portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 17,
+    "name": "Karnataka Vidyasiri Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC", "ST", "OBC"],
+    "income_limit": 250000,
+    "state": "Karnataka",
+    "benefits": "Course fees and maintenance allowance",
+    "documents": [
+      "Caste Certificate",
+      "Income Certificate",
+      "Karnataka Domicile Certificate",
+      "Admission Proof"
+    ],
+    "how_to_apply": "Apply through Karnataka Residential Educational Institutions Society",
+    "deadline": "30-09-2026"
+  },
+  {
+    "id": 18,
+    "name": "West Bengal Minority Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["Minority"],
+    "income_limit": 250000,
+    "state": "West Bengal",
+    "benefits": "Tuition fees and maintenance allowance",
+    "documents": [
+      "Minority Certificate",
+      "Income Certificate",
+      "West Bengal Domicile",
+      "Admission Proof"
+    ],
+    "how_to_apply": "Apply through West Bengal State Portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 19,
+    "name": "Uttar Pradesh Scholarship for SC/ST/OBC",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC", "ST", "OBC"],
+    "income_limit": 200000,
+    "state": "Uttar Pradesh",
+    "benefits": "Full course fee reimbursement and maintenance allowance",
+    "documents": [
+      "Caste Certificate",
+      "Income Certificate",
+      "UP Domicile Certificate",
+      "Admission Receipt"
+    ],
+    "how_to_apply": "Apply through UP Scholarship portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 20,
+    "name": "Bihar SC/ST Post-Matric Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC", "ST"],
+    "income_limit": 250000,
+    "state": "Bihar",
+    "benefits": "Tuition fees and maintenance allowance",
+    "documents": [
+      "SC/ST Certificate",
+      "Income Certificate",
+      "Bihar Domicile Certificate",
+      "Bonafide Certificate"
+    ],
+    "how_to_apply": "Apply through Bihar State Portal",
+    "deadline": "30-09-2026"
+  },
+  {
+    "id": 21,
+    "name": "Rajasthan Chief Minister Higher Education Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["General", "OBC", "SC", "ST"],
+    "income_limit": 500000,
+    "state": "Rajasthan",
+    "benefits": "₹5,000 per year for regular courses, ₹10,000 for professional courses",
+    "documents": [
+      "Income Certificate",
+      "Class 12th Marksheet (60% minimum)",
+      "Rajasthan Domicile",
+      "Admission Proof"
+    ],
+    "how_to_apply": "Apply through SSO Rajasthan portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 22,
+    "name": "Gujarat Mukhyamantri Yuva Swavalamban Yojana",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["General", "OBC", "SC", "ST"],
+    "income_limit": 600000,
+    "state": "Gujarat",
+    "benefits": "Financial assistance for tuition fees, books, and hostel",
+    "documents": [
+      "Income Certificate",
+      "Gujarat Domicile Certificate",
+      "Admission Proof",
+      "Bank Account Details"
+    ],
+    "how_to_apply": "Apply through Digital Gujarat portal",
+    "deadline": "30-09-2026"
+  },
+  {
+    "id": 23,
+    "name": "Madhya Pradesh Post-Matric Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC", "ST", "OBC"],
+    "income_limit": 250000,
+    "state": "Madhya Pradesh",
+    "benefits": "Course fees and maintenance allowance",
+    "documents": [
+      "Caste Certificate",
+      "Income Certificate",
+      "MP Domicile Certificate",
+      "Admission Receipt"
+    ],
+    "how_to_apply": "Apply through MP Scholarship Portal 2.0",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 24,
+    "name": "Andhra Pradesh Fee Reimbursement Scheme",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC", "ST", "OBC", "Minority"],
+    "income_limit": 250000,
+    "state": "Andhra Pradesh",
+    "benefits": "Full tuition fee reimbursement",
+    "documents": [
+      "Caste/Minority Certificate",
+      "Income Certificate",
+      "AP Domicile Certificate",
+      "Fee Receipt"
+    ],
+    "how_to_apply": "Apply through Jagananna Vidya Deevena portal",
+    "deadline": "30-09-2026"
+  },
+  {
+    "id": 25,
+    "name": "Telangana TS ePass Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC", "ST", "OBC", "Minority"],
+    "income_limit": 200000,
+    "state": "Telangana",
+    "benefits": "Tuition fee reimbursement and maintenance",
+    "documents": [
+      "Caste Certificate",
+      "Income Certificate",
+      "Telangana Domicile",
+      "Bonafide Certificate"
+    ],
+    "how_to_apply": "Apply through TS ePass portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 26,
+    "name": "Kerala Post-Matric Scholarship for SC/ST",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC", "ST"],
+    "income_limit": 250000,
+    "state": "Kerala",
+    "benefits": "Course fees and maintenance allowance",
+    "documents": [
+      "SC/ST Certificate",
+      "Income Certificate",
+      "Kerala Domicile",
+      "Admission Proof"
+    ],
+    "how_to_apply": "Apply through NSP portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 27,
+    "name": "Punjab SC Post-Matric Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC"],
+    "income_limit": 250000,
+    "state": "Punjab",
+    "benefits": "Full tuition fee and maintenance allowance",
+    "documents": [
+      "SC Certificate",
+      "Income Certificate",
+      "Punjab Domicile",
+      "Bonafide Certificate"
+    ],
+    "how_to_apply": "Apply through Punjab Scholarship Portal",
+    "deadline": "30-09-2026"
+  },
+  {
+    "id": 28,
+    "name": "Haryana SC/BC Post-Matric Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC", "OBC"],
+    "income_limit": 250000,
+    "state": "Haryana",
+    "benefits": "Tuition fees and maintenance charges",
+    "documents": [
+      "Caste Certificate",
+      "Income Certificate",
+      "Haryana Domicile",
+      "Previous Year Marksheet"
+    ],
+    "how_to_apply": "Apply through Haryana Welfare of SC & BC Department portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 29,
+    "name": "Odisha Post-Matric Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC", "ST"],
+    "income_limit": 250000,
+    "state": "Odisha",
+    "benefits": "Course fees and maintenance allowance",
+    "documents": [
+      "Caste Certificate",
+      "Income Certificate",
+      "Odisha Domicile",
+      "Admission Proof"
+    ],
+    "how_to_apply": "Apply through NSP portal",
+    "deadline": "30-09-2026"
+  },
+  {
+    "id": 30,
+    "name": "Jharkhand Post-Matric Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC", "ST"],
+    "income_limit": 250000,
+    "state": "Jharkhand",
+    "benefits": "Tuition fees and hostel charges reimbursement",
+    "documents": [
+      "Caste Certificate",
+      "Income Certificate",
+      "Jharkhand Domicile",
+      "Bonafide Certificate"
+    ],
+    "how_to_apply": "Apply through NSP portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 31,
+    "name": "Himachal Pradesh SC Post-Matric Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC"],
+    "income_limit": 250000,
+    "state": "Himachal Pradesh",
+    "benefits": "Course fees and maintenance allowance",
+    "documents": [
+      "SC Certificate",
+      "Income Certificate",
+      "HP Domicile",
+      "Admission Proof"
+    ],
+    "how_to_apply": "Apply through NSP portal",
+    "deadline": "30-09-2026"
+  },
+  {
+    "id": 32,
+    "name": "Uttarakhand Post-Matric Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC", "ST", "OBC"],
+    "income_limit": 200000,
+    "state": "Uttarakhand",
+    "benefits": "Tuition fees and maintenance",
+    "documents": [
+      "Caste Certificate",
+      "Income Certificate",
+      "Uttarakhand Domicile",
+      "Previous Year Marksheet"
+    ],
+    "how_to_apply": "Apply through NSP portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 33,
+    "name": "Chhattisgarh Post-Matric Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC", "ST", "OBC"],
+    "income_limit": 250000,
+    "state": "Chhattisgarh",
+    "benefits": "Course fees and maintenance charges",
+    "documents": [
+      "Caste Certificate",
+      "Income Certificate",
+      "CG Domicile",
+      "Admission Receipt"
+    ],
+    "how_to_apply": "Apply through NSP portal",
+    "deadline": "30-09-2026"
+  },
+  {
+    "id": 34,
+    "name": "Assam Post-Matric Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC", "ST"],
+    "income_limit": 250000,
+    "state": "Assam",
+    "benefits": "Tuition fee and maintenance allowance",
+    "documents": [
+      "Caste Certificate",
+      "Income Certificate",
+      "Assam Domicile",
+      "Bonafide Certificate"
+    ],
+    "how_to_apply": "Apply through NSP portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 35,
+    "name": "Goa SC/ST/OBC Post-Matric Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC", "ST", "OBC"],
+    "income_limit": 250000,
+    "state": "Goa",
+    "benefits": "Course fees and maintenance",
+    "documents": [
+      "Caste Certificate",
+      "Income Certificate",
+      "Goa Domicile",
+      "Admission Proof"
+    ],
+    "how_to_apply": "Apply through NSP portal",
+    "deadline": "30-09-2026"
+  },
+  {
+    "id": 36,
+    "name": "Delhi Post-Matric Scholarship for SC/ST",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["SC", "ST"],
+    "income_limit": 250000,
+    "state": "Delhi",
+    "benefits": "Tuition fees and maintenance charges",
+    "documents": [
+      "Caste Certificate",
+      "Income Certificate",
+      "Delhi Domicile",
+      "Previous Year Marksheet"
+    ],
+    "how_to_apply": "Apply through Delhi e-District portal",
+    "deadline": "31-10-2026"
+  },
+  {
+    "id": 37,
+    "name": "Begum Hazrat Mahal National Scholarship for Girls",
+    "student_type": "school",
+    "year": [9, 10, 11, 12],
+    "category": ["Minority"],
+    "income_limit": 200000,
+    "state": "All",
+    "benefits": "₹5,000-₹6,000 per year for girl students",
+    "documents": [
+      "Minority Certificate",
+      "Income Certificate",
+      "Previous Year Marksheet",
+      "School Certificate"
+    ],
+    "how_to_apply": "Apply through Maulana Azad Education Foundation",
+    "deadline": "30-09-2026"
+  },
+  {
+    "id": 38,
+    "name": "Swami Vivekananda Merit-cum-Means Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["General", "OBC", "SC", "ST"],
+    "income_limit": 250000,
+    "state": "West Bengal",
+    "benefits": "₹1,000-₹5,000 per month based on course",
+    "documents": [
+      "Income Certificate",
+      "Previous Year Marksheet (75% minimum)",
+      "West Bengal Domicile",
+      "Admission Proof"
+    ],
+    "how_to_apply": "Apply through SVMCM portal West Bengal",
+    "deadline": "30-11-2026"
+  },
+  {
+    "id": 39,
+    "name": "Ishan Uday Special Scholarship for North-Eastern Region",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["General", "OBC", "SC", "ST"],
+    "income_limit": 450000,
+    "state": "All",
+    "benefits": "Full tuition fee + ₹15,000 per year maintenance",
+    "documents": [
+      "Domicile Certificate from NE states",
+      "Income Certificate",
+      "Class 12th Marksheet (60% minimum)",
+      "Admission Proof"
+    ],
+    "how_to_apply": "Apply through UGC official portal",
+    "deadline": "30-09-2026"
+  },
+  {
+    "id": 40,
+    "name": "Sitaram Jindal Foundation Scholarship",
+    "student_type": "college",
+    "year": [1, 2, 3, 4],
+    "category": ["General", "OBC", "SC", "ST"],
+    "income_limit": 300000,
+    "state": "All",
+    "benefits": "₹15,000-₹30,000 per year based on merit",
+    "documents": [
+      "Income Certificate",
+      "Previous Year Marksheet (60% minimum)",
+      "Admission Proof",
+      "Recommendation Letter"
+    ],
+    "how_to_apply": "Apply through Sitaram Jindal Foundation website",
+    "deadline": "31-08-2026"
+  }
+]
+
