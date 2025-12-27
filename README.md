@@ -2,6 +2,10 @@
 
 A modern web application that helps students find eligible scholarships based on their criteria, powered by AI chat assistance using Google's Gemini API.
 
+## 🚀 Live Demo
+
+**[View Live Demo](https://scholarship-finder-ezte.vercel.app)**
+
 ## Features
 
 - 📋 **Eligibility Checking**: Input your details (caste, income, state, education level) to find matching scholarships
